@@ -240,7 +240,7 @@ footer{
 
 
 /* For Mobile view */
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 576px) {
     
     /* ----------Header Section----------- */
     .header-container{
