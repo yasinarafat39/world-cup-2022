@@ -1,0 +1,75 @@
+           
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}          
+           
+/*------------------------- 
+      Google fonts link 
+---------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;500&family=Roboto+Condensed&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+}
+
+/*-------------------------
+        Header Start
+--------------------------*/
+header{
+    width: 80%;
+    margin: 40px auto;
+    background-color: #161616;
+    color: white;
+    border-radius: 20px;
+}
+.header-container{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding-top: 33px;
+}
+.half-width{
+    width: 50%;
+}
+.half-width h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 4vw;
+    margin-bottom: 20px;
+ 
+}
+.half-width p{
+    font-size: 12px;
+    line-height: 1.5em;
+}
+.half-width button{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #DD0000;
+    padding: 10px 14px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.banner-sala img{
+    position: relative;
+    left: 25px;
+    bottom: -4px;
+}
+/*-------------------------
+        Header End
+ --------------------------*/
+/*-------------------------
+        Main Start
+--------------------------*/
+.popup-menu{
+    border: 1px solid tan;
+}
+/*-------------------------
+        Main End
+ --------------------------*/
