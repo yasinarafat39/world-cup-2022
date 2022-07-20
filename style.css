@@ -35,6 +35,7 @@ header{
 }
 .half-width{
     width: 50%;
+     
 }
 .half-width h1{
     font-family: 'Poppins', sans-serif;
@@ -43,9 +44,15 @@ header{
     margin-bottom: 20px;
  
 }
-.half-width p{
+.caption{
+    width: 100%;
+}
+.half-width .caption p{
     font-size: 12px;
     line-height: 1.5em;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(255, 255, 255, 0.8);;
 }
 .half-width button{
     border: none;
@@ -56,10 +63,12 @@ header{
     margin-top: 20px;
     cursor: pointer;
 }
-.banner-sala img{
+.banner-marselo img{
     position: relative;
     left: 25px;
     bottom: -4px;
+    width: 100%;
+    height: 100%;
 }
 /*-------------------------
         Header End
@@ -228,3 +237,55 @@ footer{
 /*-------------------------
         Footer End
 --------------------------*/
+
+
+/* For Mobile view */
+@media screen and (max-width: 390px) {
+    
+    /* ----------Header Section----------- */
+    .header-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;    
+    }
+    .half-width{
+        width: 70%;
+        text-align: center;
+    }
+    .half-width h1{
+        font-size: 1.5em;
+    }
+    .half-width button{
+        margin-top: 40px;
+    }
+    .caption{
+        width: 100%;
+         
+         
+    }
+    .caption p{
+        font-size: 0.8em;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis
+    }
+    .banner-marselo img{
+        left: 10px;
+        margin-top: 25px;
+    }
+
+    
+   
+    
+    
+    
+    
+    
+    
+    main{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+}
