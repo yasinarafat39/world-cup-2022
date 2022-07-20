@@ -164,9 +164,53 @@ main{
 /* All Transfer End  */
 
 
+/*-------------------------
+        Main End
+--------------------------*/
+
+
+
 
 
 
 /*-------------------------
-        Main End
- --------------------------*/
+       Footer start
+--------------------------*/
+footer{
+    width: 100%;
+    color: white;
+    background-color: #161616;
+}
+.footer-details{
+    width: 80%;
+    margin: 0 auto;
+}
+.footer-details h2{
+    text-align: center;
+    padding: 50px 0px 10px 0px;
+    border-bottom: 1px solid #FFFFFF1A;
+    
+}
+.footer-nav{
+    width: 65%;
+    margin: 0 auto;
+    padding: 20px 0;
+
+}
+.footer-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-nav ul li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.7em;
+}
+
+
+
+
+/*-------------------------
+        Footer End
+--------------------------*/
