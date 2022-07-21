@@ -137,7 +137,7 @@ main{
     margin-left: 2%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2%;
+    gap: 2em;
 }
 .transfer{
     border: 1px solid #E8E8E8;
@@ -177,16 +177,6 @@ main{
 
 /* All Transfer End  */
 
-
-/* View All */
-
-.view-all-page input{
-    border: none;
-    border-radius: 10px;
-    background-color: #DD0000;
-    color: white;
-
-}
 
 /*-------------------------
         Main End
@@ -325,11 +315,51 @@ footer{
     }
     
     
-    
-    
-    
-    
-    
+}
+
+/* For tablet view  */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    /* main section */
+    .main-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .popup-menu{
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        border: none;
+        width: 100%;
+        height: 100px;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .all-transfer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
      
+    .popup-menu a{
+        border: 1px solid #E8E8E8;
+        
+    }
+    .popup-menu a:nth-child(n +1){
+         
+         
+        margin-bottom: 20px;
+    }
+    .popup-menu a:nth-child(-n +2):hover{
+        background-color: #DD0000;
+        color: white;
+    }
+
+    footer{
+        margin-top: 200px;
+    }
+
+
+
+
      
 }
